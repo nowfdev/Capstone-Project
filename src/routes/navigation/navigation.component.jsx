@@ -6,13 +6,13 @@ import { Fragment, useContext } from "react";
 import "./navigation.styles.scss";
 
 import { UserContext } from "../../contexts/user.context";
-import { CardContext } from "../../contexts/cart-context";
+import { CartContext } from "../../contexts/cart-context";
 
 import { ReactComponent as CrwnLogo } from "../../assets/crown.svg";
 import { signOutUser } from "../../utils/firebase/firebase.utils";
 const Navigation = () => {
   const { currentUser } = useContext(UserContext);
-  const { isCartOpen } = useContext(CardContext);
+  const { isCartOpen } = useContext(CartContext);
 
   return (
     <Fragment>
