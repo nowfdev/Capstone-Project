@@ -11,7 +11,7 @@ import {
 } from "./navigation.styles";
 
 import { UserContext } from "../../contexts/user.context";
-import { CartContext } from "../../contexts/cart-context";
+import { CartContext } from "../../contexts/cart.context";
 
 import { ReactComponent as CrwnLogo } from "../../assets/crown.svg";
 import { signOutUser } from "../../utils/firebase/firebase.utils";
